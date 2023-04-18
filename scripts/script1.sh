@@ -1,7 +1,7 @@
 ls -l
-##read interrompe a execução do script
+##read => interrupts the script execution
 read
-##echo deixa escever qualquer coisa, inclusive imprimir variável
+##echo => whrites anything, including variables
 echo -----------------------
 ncal
 read

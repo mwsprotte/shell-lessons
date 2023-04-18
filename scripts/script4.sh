@@ -1,5 +1,5 @@
-##Usando o comando test
-echo Sim ou não, corno?
+##Using the test command
+echo Be or not to be?
 read r
-test $r = "sim" && exit
-echo O usuário não é corno, portanto aguarde ser corneado.
+test $r = "be" && exit
+echo Ok, continmue beeing.

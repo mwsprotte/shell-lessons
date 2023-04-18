@@ -1,16 +1,16 @@
-#Exemplo: trabalahndo com variáveis
+#Example: working with variables
 
 x=144
-str="textinho"
+str="txt"
 #Lendo a entrada do usuário
-echo Entre com um valor numérico
+echo Type a number
 read x
 
-echo Entre com um texto
+echo Type a text
 read str
 
 echo ----------------------------------
 
 #Imprimindo variáveis:
-echo "O valor de x é" $x
-echo "O valor de str é" $str
+echo "The number is" $x
+echo "The text is" $str

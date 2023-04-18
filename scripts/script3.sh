@@ -1,6 +1,6 @@
-#Atribuindo resultado de comandos a variável
+#Command results in a variable
 data=$(date)
-echo "A data atual é" $data
+echo "The actual date is" $data
 read
 echo $data
 echo ---------------------------------------------

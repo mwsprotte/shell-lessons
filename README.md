@@ -1,21 +1,21 @@
 # Compiled of Shell Commands
-This repository it’s my personal little compiled of Shell commands that I consider useful. I made this based in the course Raspberry Para IoT, powered by IFRG, and I expect this can be useful for another people.
+This repository it’s my personal little compiled of Shell commands that I consider useful. I made this based in the course Raspberry Para IoT, powered by IFRG, and I expect this can be useful for another peoples.
 
 ### Lesson 1 
 
-•	Manual of the command, ex: cat man
+*	Manual of the command, ex: cat man
 ```
 man
 ```
-•	 Visualize the content of archives
+*	 Visualize the content of archives
 ```
 cat
 ```
-•	Show the actual path
+*	Show the actual path
 ```
 pwd
 ```
-•	Switch path
+*	Switch path
 ```
 cd
 ```
@@ -29,12 +29,12 @@ cd ../../
 ```
 cd home/pi/ 
 ```
-•	List content of the path
+*	List content of the path
 ```
 ls
 ``` 
 
-•	Direction operator, destination the return of to another place
+*	Direction operator, destination the return of to another place
 ```
 >
 ```
@@ -43,12 +43,12 @@ Example:
 cat n01.txt > n02.txt
 ```
 
-•	Clear the screen
+*	Clear the screen
 ```
 clear
 ```
 
-•	 = redireciona acrescentando ao arquivo
+* Redirect add in a archive
 ```
 >> 
 ```
@@ -58,25 +58,30 @@ cat >> n03.txt
 ```
 
 
-• dá parâmetros do arquivo, como número de linhas
+* Give archive parameters, like number of lines
 ```
 wc 
 ```
 
-• Operador de canalização, retorna o conteúdo para ser usado em outro comando. ex: cat n02.txt | wc -m (retorna a quantidade de caracteres do arquivo n02.txt)
+* Canalization operator, returns the content to be used in another command.
+
 ```
 | 
+```
+Example (return the character amount of archive n02.txt): 
+```
+cat n02.txt | wc -m 
 ```
 
 ### Lesson 2
 
-•	criar diretório 
+*	Create a directory 
 
 ```
-mkdir <nome_do_diretorio> 
+mkdir <directory_name> 
 ```
 
-•Cópia de arquivos
+* Archives copy:
 
 ```
 cp
@@ -183,7 +188,7 @@ chown
 chgrp
 ```
 
-Lesson 5
+### Lesson 5
 
 * Show actual date
 ```
@@ -236,3 +241,9 @@ sudo shutdown -h now
 ```
 sudo systemctl enable <service>
 ```
+### Some example Scrips:
+
+* [A simple echo/read script](scripts/script1.sh)
+* [Basic data input](scripts/script2.sh)
+* [Use Command results as a variable](scripts/script3.sh)
+* [Using the test command](scripts/script4.sh)

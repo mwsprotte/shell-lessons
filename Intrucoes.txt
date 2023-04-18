@@ -1,8 +1,0 @@
-https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/
-
-ip rapbery py: 192.168.100.133
-Para checar o ip: hostname -I
-
-root password: senha
-
-php admin password: senha
