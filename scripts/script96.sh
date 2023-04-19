@@ -1,4 +1,4 @@
-#Test netwokr pakcage
+#Test network pakcage
 # 3 => limit in three lines
 while ping -c 3  $1
 do

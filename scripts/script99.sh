@@ -1,5 +1,5 @@
 files=$(ls)
 for file in $files
 do
-	echo "Do domething with archive "$file
+	echo "Do something with archive "$file
 done
